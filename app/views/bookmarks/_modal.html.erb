@@ -17,3 +17,9 @@
           <button type="button" class="btn btn-cancel" data-bs-dismiss="modal">Back</button>
         </div>
       <% end %>
+  
+  <%= simple_form_for(article) do |f| %>
+    <!-- [...] -->
+    <%= f.input :photo, as: :file %>
+    <!-- [...] -->
+  <% end %>
