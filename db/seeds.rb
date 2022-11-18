@@ -19,8 +19,8 @@ Movie.create!(title: 'Titanic',
 Movie.create!(title: "Ocean's Eight",
               overview: 'Debbie Ocean, a criminal mastermind, gathers a crew of female thieves to pull off the heist of the century.', poster_url: 'https://image.tmdb.org/t/p/original/MvYpKlpFukTivnlBhizGbkAe3v.jpg', rating: 7.0)
 
-Tag.create!(name:"Comic")
-Tag.create!(name:"Love")
-Tag.create!(name:"Terror")
-Tag.create!(name:"Drame")
-Tag.create!(name:"Veridic")
+# Tag.create!(name:"Comic")
+# Tag.create!(name:"Love")
+# Tag.create!(name:"Terror")
+# Tag.create!(name:"Drame")
+# Tag.create!(name:"Veridic")
