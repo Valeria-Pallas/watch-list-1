@@ -6,10 +6,25 @@
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
+<<<<<<< HEAD
     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
   </head>
 
   <body>
+=======
+    <%# <%= stylesheet_link_tag "application", "other", "styles", "data-turbo-track": "reload" %>
+    <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+    <%= javascript_include_tag "application", "data-turbo-track": "reload", defer: true %>
+  </head>
+
+  <body>
+
+
+    <%= yield %>
+  </body>
+    <%= render 'shared/navbar' %>
+    <%# <%= render 'shared/flashes' %>
+>>>>>>> c40c6ee7f76e5ba077870a536c7bd8ebf869b2c4
     <%= yield %>
   </body>
 </html>

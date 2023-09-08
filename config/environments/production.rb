@@ -1,4 +1,10 @@
+<<<<<<< HEAD
 require "active_support/core_ext/integer/time"
+=======
+# frozen_string_literal: true
+
+require 'active_support/core_ext/integer/time'
+>>>>>>> c40c6ee7f76e5ba077870a536c7bd8ebf869b2c4
 
 Rails.application.configure do
   # Settings specified here will take precedence over those in config/application.rb.
@@ -22,7 +28,11 @@ Rails.application.configure do
 
   # Disable serving static files from the `/public` folder by default since
   # Apache or NGINX already handles this.
+<<<<<<< HEAD
   config.public_file_server.enabled = ENV["RAILS_SERVE_STATIC_FILES"].present?
+=======
+  config.public_file_server.enabled = ENV['RAILS_SERVE_STATIC_FILES'].present?
+>>>>>>> c40c6ee7f76e5ba077870a536c7bd8ebf869b2c4
 
   # Compress CSS using a preprocessor.
   # config.assets.css_compressor = :sass
@@ -53,7 +63,11 @@ Rails.application.configure do
   config.log_level = :info
 
   # Prepend all log lines with the following tags.
+<<<<<<< HEAD
   config.log_tags = [ :request_id ]
+=======
+  config.log_tags = [:request_id]
+>>>>>>> c40c6ee7f76e5ba077870a536c7bd8ebf869b2c4
 
   # Use a different cache store in production.
   # config.cache_store = :mem_cache_store
@@ -82,8 +96,13 @@ Rails.application.configure do
   # require "syslog/logger"
   # config.logger = ActiveSupport::TaggedLogging.new(Syslog::Logger.new "app-name")
 
+<<<<<<< HEAD
   if ENV["RAILS_LOG_TO_STDOUT"].present?
     logger           = ActiveSupport::Logger.new(STDOUT)
+=======
+  if ENV['RAILS_LOG_TO_STDOUT'].present?
+    logger           = ActiveSupport::Logger.new($stdout)
+>>>>>>> c40c6ee7f76e5ba077870a536c7bd8ebf869b2c4
     logger.formatter = config.log_formatter
     config.logger    = ActiveSupport::TaggedLogging.new(logger)
   end

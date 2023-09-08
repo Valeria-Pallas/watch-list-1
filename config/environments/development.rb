@@ -1,4 +1,10 @@
+<<<<<<< HEAD
 require "active_support/core_ext/integer/time"
+=======
+# frozen_string_literal: true
+
+require 'active_support/core_ext/integer/time'
+>>>>>>> c40c6ee7f76e5ba077870a536c7bd8ebf869b2c4
 
 Rails.application.configure do
   # Settings specified here will take precedence over those in config/application.rb.
@@ -19,13 +25,21 @@ Rails.application.configure do
 
   # Enable/disable caching. By default caching is disabled.
   # Run rails dev:cache to toggle caching.
+<<<<<<< HEAD
   if Rails.root.join("tmp/caching-dev.txt").exist?
+=======
+  if Rails.root.join('tmp/caching-dev.txt').exist?
+>>>>>>> c40c6ee7f76e5ba077870a536c7bd8ebf869b2c4
     config.action_controller.perform_caching = true
     config.action_controller.enable_fragment_cache_logging = true
 
     config.cache_store = :memory_store
     config.public_file_server.headers = {
+<<<<<<< HEAD
       "Cache-Control" => "public, max-age=#{2.days.to_i}"
+=======
+      'Cache-Control' => "public, max-age=#{2.days.to_i}"
+>>>>>>> c40c6ee7f76e5ba077870a536c7bd8ebf869b2c4
     }
   else
     config.action_controller.perform_caching = false
@@ -34,7 +48,11 @@ Rails.application.configure do
   end
 
   # Store uploaded files on the local file system (see config/storage.yml for options).
+<<<<<<< HEAD
   config.active_storage.service = :local
+=======
+  config.active_storage.service = :cloudinary
+>>>>>>> c40c6ee7f76e5ba077870a536c7bd8ebf869b2c4
 
   # Don't care if the mailer can't send.
   config.action_mailer.raise_delivery_errors = false

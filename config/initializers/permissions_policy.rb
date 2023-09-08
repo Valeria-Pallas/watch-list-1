@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+# frozen_string_literal: true
+>>>>>>> c40c6ee7f76e5ba077870a536c7bd8ebf869b2c4
 # Define an application-wide HTTP permissions policy. For further
 # information see https://developers.google.com/web/updates/2018/06/feature-policy
 #

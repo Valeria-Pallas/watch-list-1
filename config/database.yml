@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # PostgreSQL. Versions 9.3 and up are supported.
 #
 # Install the pg driver:
@@ -84,3 +85,17 @@ production:
   database: rails_watch_list_production
   username: rails_watch_list
   password: <%= ENV["RAILS_WATCH_LIST_DATABASE_PASSWORD"] %>
+=======
+default: &default
+  adapter: postgresql
+  encoding: unicode
+  pool: 5
+
+development:
+  <<: *default
+  database: rails-watch-list_development
+
+test:
+  <<: *default
+  database: rails-watch-list_test
+>>>>>>> c40c6ee7f76e5ba077870a536c7bd8ebf869b2c4
