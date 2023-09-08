@@ -1,12 +1,4 @@
 #!/usr/bin/env ruby
-<<<<<<< HEAD
 APP_PATH = File.expand_path("../config/application", __dir__)
 require_relative "../config/boot"
 require "rails/commands"
-=======
-# frozen_string_literal: true
-
-APP_PATH = File.expand_path('../config/application', __dir__)
-require_relative '../config/boot'
-require 'rails/commands'
->>>>>>> c40c6ee7f76e5ba077870a536c7bd8ebf869b2c4
