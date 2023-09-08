@@ -1,11 +1,4 @@
 #!/usr/bin/env ruby
-<<<<<<< HEAD
 require_relative "../config/boot"
 require "rake"
-=======
-# frozen_string_literal: true
-
-require_relative '../config/boot'
-require 'rake'
->>>>>>> c40c6ee7f76e5ba077870a536c7bd8ebf869b2c4
 Rake.application.run
